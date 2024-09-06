@@ -41,20 +41,20 @@ Data is highly imbalance so used Undersampling and Oversampling method to balanc
 Out of all the models the model that scored the best is Random Forest Classifier as its accuracy is 99.99% and Recall 1%, the second best is Decision Tree and the model that scored the lowest accuracy out of all models is Logistic Regression with a score of 94.68%.
 
 ## Model-Deployment
-The final chosen model, Random Forest is saved using Pickle for future Predictions. The model is saved in a file called  'CreditCard_Model.pkl'
+The final chosen model, Random Forest is saved using Pickle for future Predictions. The model is saved in a file called  'CreditCard_Model'
 
 ## Flask Application
 Use Flask to create a user interface for the credit card fraud detection project. The flask application allows the user to enter credit card transaction data, and the data is trained Random Forest Classifier model. Once transaction features are entered then we get the prediction on whether the transaction is legitimate or fraudulent.
 
 
 ## Communication
-We investigated the data, checking for data unbalancing, visualizing the features and understanding the relationship between different features. We then investigated two predictive models. The data was split in 3 parts, a train set, a validation set and a test set. For the first three models, we only used the train and test set.
+We investigated the data, checking for data unbalancing, visualizing the features and understanding the relationship between different features. We then investigated two predictive models. The data was split in  train set and a test set. 
 
 We started with Logistic Regression model, for which we obtained an Accuracy,f1-Score, recall and preciosn around 94% when predicting the target for the test set.
 
 We followed with an Decision Tree model, with Accuracy,f1-Score, recall and preciosn around 99% for prediction of the test set target values.
 
-In conclusion, the analysis identifies the Random Forest model as the best performer based on the F1-Score metric. With an AUC-ROC of 0.908053, Precision of 0.948718, Recall of 0.816176, and an F1-Score of 0.87747, the Random Forest model demonstrates a balanced performance across precision and recall, making it a robust choice for the given task.
+In conclusion, the analysis identifies the Random Forest model as the best performer based on the F1-Score metric. With an Accuracy Score of 0.9999, Precision of 0.9998, F1-Score of 0.9999, and Recall Score of 1.0, the Random Forest model demonstrates a balanced performance across precision and recall, making it a robust choice for the given task.
 
 ## Dependencies
 - <b>Pandas</b> for data manipulation
