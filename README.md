@@ -48,7 +48,7 @@ Use Flask to create a user interface for the credit card fraud detection project
 
 
 ## Communication
-We investigated the data, checking for data unbalancing, visualizing the features and understanding the relationship between different features. We then investigated two predictive models. The data was split in  train set and a test set. 
+We investigated the data, checking for data unbalancing, visualizing the features and understanding the relationship between different features. The data was split in  train set and a test set. 
 
 We started with Logistic Regression model, for which we obtained an Accuracy,f1-Score, recall and preciosn around 94% when predicting the target for the test set.
 
