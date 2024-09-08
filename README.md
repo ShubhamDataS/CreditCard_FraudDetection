@@ -54,7 +54,7 @@ We started with Logistic Regression model, for which we obtained an Accuracy,f1-
 
 We followed with an Decision Tree model, with Accuracy,f1-Score, recall and preciosn around 99% for prediction of the test set target values.
 
-In conclusion, the analysis identifies the Random Forest model as the best performer based on the F1-Score metric. With an Accuracy Score of 0.9999, Precision of 0.9998, F1-Score of 0.9999, and Recall Score of 1.0, the Random Forest model demonstrates a balanced performance across precision and recall, making it a robust choice for the given task.
+In conclusion, the analysis identifies the Random Forest model as the best performer based on the Score metrics. With an Accuracy Score of 0.9999, Precision of 0.9998, F1-Score of 0.9999, and Recall Score of 1.0, the Random Forest model demonstrates a balanced performance across precision and recall, making it a robust choice for the given task.
 
 ## Dependencies
 - <b>Pandas</b> for data manipulation
